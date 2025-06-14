@@ -1,1 +1,9 @@
-<h1 class="text-2xl font-bold">📊 CoinPilot 대시보드</h1>
+<!-- frontend/src/routes/+page.svelte -->
+<script>
+  let message = "🚀 Welcome to CoinPilot!";
+</script>
+
+<main>
+  <h1>{message}</h1>
+  <p>This is the main dashboard of your crypto tool.</p>
+</main>

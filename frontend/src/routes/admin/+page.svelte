@@ -1,1 +1,0 @@
-<h1 class="text-xl font-semibold">🔐 관리자 페이지</h1>

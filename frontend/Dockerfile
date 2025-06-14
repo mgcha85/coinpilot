@@ -1,9 +1,14 @@
-FROM node:20-alpine
+# frontend/Dockerfile
+FROM node:20
 
 WORKDIR /app
-COPY . .
+
+COPY package*.json ./
 
 RUN npm install
 
+COPY . .
+
 EXPOSE 3000
-CMD ["npm", "run", "preview", "--", "--port", "3000", "--host"]
+
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
