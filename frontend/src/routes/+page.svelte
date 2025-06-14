@@ -1,0 +1,1 @@
+<h1 class="text-2xl font-bold">📊 CoinPilot 대시보드</h1>

@@ -1,0 +1,1 @@
+<h1 class="text-xl font-semibold">⚙️ 설정 페이지</h1>
