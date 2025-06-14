@@ -16,6 +16,14 @@
   }
 </script>
 
+<!-- 로그인·회원가입 링크 -->
+<div class="pt-24 flex justify-end max-w-6xl mx-auto px-6 space-x-4">
+  <button
+    class="text-gray-600 dark:text-gray-300 hover:text-blue-600"
+    on:click={() => navTo('/login')}
+  >로그인</button>
+</div>
+
 <main class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 py-16 px-6">
   <div class="max-w-5xl mx-auto text-center mb-12">
     <h1 class="text-5xl font-extrabold mb-4">🚀 CoinPilot</h1>

@@ -1,7 +1,43 @@
+pandas
+pyyaml
+requests
+
+# Web framework
 fastapi
-uvicorn
-sqlalchemy
+uvicorn[standard]
+
+# 데이터베이스
+SQLAlchemy
 psycopg2-binary
-redis
-python-jose[cryptography]
+alembic
 python-dotenv
+
+# Pydantic 스키마 유효성 검사
+pydantic
+
+# 암호화 (API Key 암호화/복호화)
+cryptography
+
+# 캐시 & Task Queue
+celery[redis]
+redis
+aioredis
+
+# HTTP 클라이언트 (외부 API 호출용)
+httpx
+
+# 인증·권한 (JWT 등 필요 시)
+python-jose
+passlib[bcrypt]
+
+# 로깅, 유틸
+loguru
+
+# 테스트
+pytest
+pytest-asyncio
+httpx
+
+# 타입 힌트 보조
+typing-extensions
+pydantic[email]
