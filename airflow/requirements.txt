@@ -1,0 +1,6 @@
+pandas
+requests
+python-binance
+apache-airflow-providers-postgres
+apache-airflow-providers-http
+apache-airflow-providers-redis
